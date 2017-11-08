@@ -10,7 +10,7 @@
         </nav>
     </div>
     <div class="hero-body">
-        <div class="container has-text-centered">
+        <div class="container{% if page.home %} has-text-centered{% endif %}">
             <h1 class="title">{{ page.title }}</h1>
             {% if page.home %}<h2 class="subtitle">{{ page.description }}</h2>{% endif %}
         </div>

@@ -6,6 +6,9 @@
     margin-bottom: 3rem;
     font-size: 4rem;
 }
+#home-header.is-small .title{
+    font-size: 2rem;
+}
 .blog-list{
     margin-bottom: 50px;
 }
@@ -30,4 +33,7 @@
     font-family: Lora,'Times New Roman',serif;
     color: #ccc;
     font-style: italic;
+}
+.article-main{
+    padding: 30px;
 }
