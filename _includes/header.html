@@ -1,4 +1,4 @@
-<section class="hero is-dark is-medium is-bold" id="home-header">
+<section class="hero is-dark {% if page.home %}is-medium{% else %}is-small{% endif %} is-bold" id="home-header">
     <div class="hero-head">
         <nav class="navbar">
             <div class="container">
@@ -12,7 +12,7 @@
     <div class="hero-body">
         <div class="container has-text-centered">
             <h1 class="title">{{ page.title }}</h1>
-            <h2 class="subtitle">{{ page.description }}</h2>
+            {% if page.home %}<h2 class="subtitle">{{ page.description }}</h2>{% endif %}
         </div>
     </div>
 </section>
