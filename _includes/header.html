@@ -1,9 +1,18 @@
-<div class="header">
-    <div class="menu">
-        <a href="/blog/" class="home">Home</a>
+<section class="hero is-primary is-medium is-bold home-header">
+    <div class="hero-head">
+        <nav class="navbar">
+            <div class="container">
+                <a href="/" class="nav-brand">Home</a>
+                <div class="navbar-menu">
+                    <a href="/2017/11/08/about.html" class="navbar-end">About</a>
+                </div>
+            </div>
+        </nav>
     </div>
-    <div class="heading">
-        <h1 class="title">{{ page.title }}</h1>
-        <p class="desc">{{ page.description }}</p>
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">{{ page.title }}</h1>
+            <h2 class="subtitle">{{ page.description }}</h2>
+        </div>
     </div>
-</div>
+</section>

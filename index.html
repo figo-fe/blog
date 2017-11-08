@@ -3,6 +3,8 @@ layout: default
 title: Figo's Blog
 description: 没有做不到，只有想不到
 ---
-{% for post in site.posts %}
-{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-{% endfor %}
+<div class="container">
+    {% for post in site.posts %}
+    {{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+</div>
