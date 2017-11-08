@@ -4,7 +4,10 @@
 }
 #home-header .title{
     margin-bottom: 3rem;
-    font-size: 5rem;
+    font-size: 4rem;
+}
+.blog-list{
+    margin-bottom: 50px;
 }
 .blog-list li{
     padding: 1.5rem 0;
