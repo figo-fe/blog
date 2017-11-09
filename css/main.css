@@ -23,6 +23,9 @@
 .blog-list h2 a{
     color: #404040;
 }
+.blog-list h2 a:hover{
+    color: #0085a1;
+}
 .blog-list li .desc{
     font-size: 1rem;
     color: #a3a3a3;
