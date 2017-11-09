@@ -45,3 +45,6 @@
 .article-main{
     padding: 30px;
 }
+.article-main ol li{
+    margin-bottom: 1.2rem;
+}
