@@ -5,7 +5,7 @@ description: 作为一个开发者，如果你打算开源自己的代码，千�
 ---
 作为一个开发者，如果你打算开源自己的代码，千万不要忘记，选择一种开源许可证（license）。
 
-许多开发者对开源许可证了解很少，不清楚有哪些许可证，应该怎么选择。本文介绍开源许可证的基本知识，主要参考了 OpenSource.com （(1)[https://opensource.com/article/17/9/9-open-source-software-rules-startups]，(2)[https://opensource.com/article/17/9/open-source-licensing]）。
+许多开发者对开源许可证了解很少，不清楚有哪些许可证，应该怎么选择。本文介绍开源许可证的基本知识，主要参考了 OpenSource.com （[1](https://opensource.com/article/17/9/9-open-source-software-rules-startups)，[2](https://opensource.com/article/17/9/open-source-licensing)）。
 
 ![](/img/posts/i2017111701.jpg)
 
